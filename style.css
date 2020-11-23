@@ -1,0 +1,125 @@
+*{
+    margin:0; padding:0
+}
+
+body{
+    background-color:#EEE; 
+    font-family: 'Josefin Sans', sans-serif;
+    background-image:linear-gradient(to right,rgb(49, 47, 47),rgb(46, 42, 42))
+}
+
+.container{
+     max-width:1000px;
+     background-color:#E4F9F5;
+     margin:0 auto;
+     padding:20px;;
+     background-image:url("images/164628.jpg");
+}
+/*-----------
+header start
+--------------*/
+header{
+
+}
+.profile-img{
+      
+      width:90px;
+      height:120px;
+      border: 3px solid rgb(106, 150, 190);
+      border-radius:20%;
+      float:left;
+}
+.header-bio{
+      float:left; 
+      padding:30px;
+}
+h1,h2,h3,h4,h6{
+      color:#c6c9ce;
+}
+h5{
+      color:rgba(238, 213, 218, 0.863);
+}
+.header-contact{
+       float:right;
+       padding:30px;
+}
+.header-contact a{
+        text-decoration:none;
+        color:rgb(183, 201, 201);
+        font-weight:bold;
+}
+.header-contact a:hover{
+         text-decoration:underline;
+         color:tomato;
+}
+.clear{
+         clear:both;
+}
+hr{
+         border:solid #8ea886 3px;
+         width: 100%;
+         margin:20px;
+         border-bottom:none;
+         border-radius:40%;
+}
+/*--------
+main start
+----------*/
+#personal-section{
+
+}
+.content{
+      margin-bottom:30px;
+}
+.left{
+         width:30%;
+         float:left;      
+}
+.right{
+         width:70%;
+         float:left;
+
+}
+#hr2{
+      border:double rgb(159, 160, 109) 2px;
+      widows: 50%;
+      margin:20px auto;
+      border-radius:20%;
+      border-bottom:none;
+}
+/*--------
+education part
+----------*/
+.edu-left{
+      float:left;
+      width:45%;
+}
+.edu-right{
+      float:right;
+      width:45%;
+}
+/*-----------
+footer start
+------------*/
+#about{
+      height:70px;
+       width:550px;
+        background-image:linear-gradient(to right,rgb(94, 81, 81),gray); margin:auto; border-radius:10px; 
+}
+#about ul{
+
+}
+#about ul li{
+   list-style-type:none; margin:20px; float:left;	
+}
+#about ul li a{
+	text-decoration:none; font-size:25px; color:white;
+}
+#about ul li a:hover{
+	text-decoration:underline; cursor:help;
+}
+#copy{
+       float:right;
+       font-size:10px;
+       color:rgb(140, 159, 177);
+}
