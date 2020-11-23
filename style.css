@@ -123,3 +123,14 @@ footer start
        font-size:10px;
        color:rgb(140, 159, 177);
 }
+#about-me{
+      text-align:center;
+      margin-bottom:15px;
+}
+#hr3{
+      color:rgb(105, 145, 163);
+      border-radius:30%;
+      width:40%;
+      margin:10px auto;
+}
+
